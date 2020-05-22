@@ -1,0 +1,4 @@
+.smallRightBox{
+    display: flex;
+    flex-direction: column;
+}

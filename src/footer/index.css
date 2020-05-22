@@ -1,0 +1,16 @@
+.footerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 200px;
+}
+
+.footerNav .btn {
+    width: 32px;
+    background: yellow;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    cursor: pointer;
+}

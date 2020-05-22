@@ -1,0 +1,11 @@
+.titleName {
+    width: 100%;
+}
+
+.spanTile {
+    width: 33%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

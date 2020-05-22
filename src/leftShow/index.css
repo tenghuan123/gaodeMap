@@ -1,0 +1,10 @@
+.smallleftBox{
+    display: flex;
+    justify-content: center;
+}
+.legend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 35px 0px;
+}

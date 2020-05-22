@@ -1,0 +1,57 @@
+header {
+  height: 10vh;
+  background: rgba(63, 65, 197, 0.4);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+footer {
+  height: 10vh;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: rgba(63, 65, 197, 0.4);
+}
+
+.tooltip {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+main {
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+}
+
+.leftShow {
+  width: 290px;
+  position: absolute;
+  left: 0px;
+  color: aliceblue;
+  background: rgba(63, 65, 197, 0.4);
+  margin: 10px 5px;
+  border-radius: 20px;
+  max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px 0px;
+}
+
+
+.rightShow {
+  width: 290px;
+    position: absolute;
+    right: 0px;
+    color: aliceblue;
+    background: rgba(63, 65, 197, 0.4);
+    padding: 20px 10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    display: flex;
+    max-height: 70vh;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
